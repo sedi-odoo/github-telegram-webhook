@@ -27,6 +27,7 @@ export type {
   PushEvent,
   ReleaseEvent,
   StarEvent,
+  StatusEvent,
   WebhookEvent,
   WebhookEventMap,
   WebhookEventName,

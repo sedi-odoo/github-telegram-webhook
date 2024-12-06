@@ -14,6 +14,7 @@ import { default as ForkAction } from "./fork.ts";
 import { default as PublicAction } from "./public.ts";
 import { default as ReleaseAction } from "./release.ts";
 import { default as StarAction } from "./star.ts";
+import { default as StatusAction } from "./status.ts";
 import { default as WorkflowRunAction } from "./workflow-run.ts";
 
 const triggerList = [
@@ -29,6 +30,7 @@ const triggerList = [
   ["public", PublicAction],
   ["release", ReleaseAction],
   ["star", StarAction],
+  ["status", StatusAction],
   ["workflow_run", WorkflowRunAction],
 ];
 
